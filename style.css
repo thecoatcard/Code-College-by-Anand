@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    background-image: linear-gradient(to right, rgb(0, 174, 255), white);
+} */
+
+header {
+    position: fixed;
+    top: 0;
+    height: fit-content;
+    width: 100vw;
+    background-color: azure;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    /* border-top: 2px solid rgb(247, 243, 243); */
+    display: flex;
+    z-index: 5px;
+    overflow: hidden;
+    /* background-image: linear-gradient(to right, rgb(0, 174, 255), white); */
+}
+
+.nav ul {
+    margin-left: 45%;
+    display: flex;
+    margin-top: 12px;
+}
+
+.nav ul li {
+    font-size: 15px;
+    margin-left: 20px;
+    list-style: none;
+}
+
+.nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav button {
+    color: white;
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: rgb(27, 0, 177);
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 18px;
+}
+
+#home {
+    display: flex;
+    height: 290px;
+}
+
+.video {
+    width: 30%;
+    margin-left: 30%;
+}
+
+.logo {
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10%;
+    color: black;
+    font-size: 8px;
+}
+
+.logo a {
+    font-weight: bolder;
+    font-size: 9px;
+    text-decoration: none;
+}
+
+.logo span {
+    margin-left: -32px;
+    font-size: 25px;
+    color: rgb(255, 174, 0);
+}
+
+.container {
+    position: static;
+    margin-top: 150px;
+}
+
+
+.bar ul {
+    display: flex;
+}
+
+.bar ul li {
+    list-style: none;
+    margin-left: 13%
+}
+
+.bar ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+
+#home ul li,
+.join {
+    color: black;
+    font-family: c;
+    margin-top: 15px;
+    margin-left: 150px;
+    list-style: none;
+    font-size: 35px;
+}
+
+#home ul li.min {
+    width: fit-content;
+    margin-top: 2px;
+    margin-left: 170px;
+    font-size: 18px;
+}
+
+.join {
+    cursor: pointer;
+    color: white;
+    font-size: 22px;
+    margin-left: 180px;
+    border-radius: 25px;
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(27, 0, 177);
+}
+
+#home>button>span {
+    font-weight: bolder;
+}
+
+#home ul li.alpha {
+    margin-left: 200px;
+}
+
+.launch {
+    background-image: linear-gradient(to right,red,blue);
+    margin-top: 50px;
+    padding: 50px;
+    /* background-color: rgb(39, 151, 151); */
+    color: white;
+    height: 30vh;
+}
+
+.launch p {
+    margin-top: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.launch .join {
+    margin-left: 40vw;
+}
+#reviews{
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    display: flex;
+}
+.rev{
+    margin-left: 50px;
+/* width: 45vw; */
+
+}
+.rev h1{
+    margin-left: 180px;
+    width: max-content;
+}
+.rev button ul li{
+list-style: none;
+}
+.rev .rate{
+    color: rgb(0, 0, 0);
+    background-color: rgba(27, 0, 177, 0);
+    font-size: 15px;
+    width: fit-content;
+    padding-left: 12px;
+    padding: 12px;
+    
+    border: none;
+    padding-right: 12px;
+    border-radius: 25px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.rev .join{
+    font-size: 30px;
+    margin-top: 35px;
+    margin-left: 250px;
+}
+#reviews .video{
+    margin-left: 120px;
+    width: fit-content;
+}
+#curriculum{
+    display: flex;
+}
+#curriculum ul li{
+    list-style:circle;
+}
+.curri1 ,.curri2{
+    margin-top: 10px;
+    width: 35%;
+    margin-left: 10%;
+}
+.instruct{
+    height: 400px;
+    background-image: linear-gradient(to right,red,blue);
+}
+.instruct>img{
+    margin-left: 36%;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-top: 20px;
+    display: inline-block;
+}
+.instruct ul {
+    margin-left: 42%;
+}
+.instruct ul li{
+    list-style: none;
+}
+.name{
+    margin-left: -60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.exp{
+    display: flex;
+}
+.exp ul li{
+    margin-top: 20px;
+    float: left;
+    margin-left: 187px;
+}
+.exp ul{
+    margin-left: 0;
+    
+}
+.exp img{
+    width: 15px;
+}
